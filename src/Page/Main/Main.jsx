@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-const mainPage = () => {
+const Main = () => {
 
     return (
         <div>
@@ -11,4 +11,4 @@ const mainPage = () => {
     );
 }
 
-export default mainPage;
+export default Main;
