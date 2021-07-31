@@ -1,11 +1,16 @@
 import React from 'react';
+import { observer } from 'mobx-react';
 
-const Content = (props) => {
+const Content = observer((props) => {
+
     return (
         <div>
-            {props.children}
+            <div>Content 영역</div>
+
         </div>
     );
-};
+
+});
+
 
 export default Content;
